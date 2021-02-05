@@ -205,8 +205,5 @@ TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 # Inherit from the proprietary version
 -include vendor/xiaomi/laurel_sprout/BoardConfigVendor.mk
 
-# Unpack vendor images
-include vendor/xiaomi/laurel_sprout-images/unpack-images.mk
-
 # Include prebuilt vendor
-include vendor/xiaomi/laurel_sprout-images/vendor-image.mk
+include device/xiaomi/laurel_sprout-images/vendor-image.mk
