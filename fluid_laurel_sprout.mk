@@ -32,6 +32,13 @@ PRODUCT_DEVICE := laurel_sprout
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A3
 PRODUCT_MANUFACTURER := Xiaomi
+# fluid
+FLUID_BUILD_TYPE := OFFICIAL
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.fluid.maintainer=Raghav2995 \
+  ro.fluid.cpu=SD665
+TARGET_INCLUDE_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys"
 
