@@ -19,5 +19,7 @@
     <dimen name="rounded_corner_radius_bottom">128.0px</dimen>
     <dimen name="rounded_corner_radius_bottom_adjustment">46.0px</dimen>
     <dimen name="rounded_corner_radius_top">144.0px</dimen>
+    <dimen name="quick_qs_offset_height">95dp</dimen>
+    <dimen name="quick_qs_total_height">270dp</dimen>
     <dimen name="rounded_corner_radius_top_adjustment">79.0px</dimen>
 </resources>
