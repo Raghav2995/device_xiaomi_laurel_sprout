@@ -12,7 +12,9 @@ type sysfs_led, sysfs_type, fs_type;
 type sysfs_red_led, sysfs_type, fs_type;
 
 type sysfs_battery_supply, sysfs_type, fs_type;
+type vendor_sysfs_battery_supply, sysfs_type, fs_type;
 type sysfs_usb_supply, sysfs_type, fs_type;
+type vendor_sysfs_usb_supply, sysfs_type, fs_type;
 
 type sysfs_tp_dispparam, sysfs_type, fs_type;
 type sysfs_tp_aodstatus, sysfs_type, fs_type;
