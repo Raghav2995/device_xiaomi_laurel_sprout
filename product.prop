@@ -1,0 +1,9 @@
+ro.com.google.gmsversion=11_202101
+ro.com.google.clientidbase.ms=android-xiaomi-rev2
+persist.vendor.dpm.feature=11
+audio.sys.noisy.broadcast.delay=500
+audio.sys.mute.latency.factor=2
+audio.sys.routing.latency=0
+audio.offload.min.duration.secs=30
+audio.sys.offload.pstimeout.secs=3
+
