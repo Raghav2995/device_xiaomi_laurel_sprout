@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-fluid
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
@@ -119,7 +119,7 @@ PRODUCT_PACKAGES += \
     lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_trinket
 
 PRODUCT_COPY_FILES += \
-    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+    vendor/fluid/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 # HIDL
 PRODUCT_PACKAGES += \
