@@ -375,15 +375,25 @@ system_ext/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 system_ext/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
 system_ext/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
-# Power-off charging daemon
-bin/charger
-
 # Sensors
 -system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
 
 # TUI
 system_ext/lib/vendor.qti.hardware.tui_comm@1.0.so
 system_ext/lib64/vendor.qti.hardware.tui_comm@1.0.so
+# RIL
+etc/permissions/privapp-permissions-qti.xml
+system_ext/etc/permissions/qti_libpermissions.xml
+system_ext/etc/permissions/qti_permissions.xml
+system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
+etc/sysconfig/qti_whitelist.xml
+-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
+-system_ext/app/atfwd/atfwd.apk
+system_ext/etc/permissions/qcrilhook.xml
+system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
+system_ext/etc/permissions/telephonyservice.xml
+system_ext/framework/qcrilhook.jar
+-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
 # Voice
 -system_ext/framework/vendor.qti.voiceprint-V1.0-java.jar
